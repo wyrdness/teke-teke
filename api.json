@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/teke-teke",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "teke-teke",
+    "name": "Teke Teke (テケテケ)",
+    "aliases": [],
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Unknown",
+    "tags": [
+      "katakana-script-marks-the-sound-as-mechanical",
+      "unnatural",
+      "and-potentially-foreign",
+      "contrasting-with-the-organic-nature-of-traditional-ghost-appearances."
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "Emerging prominently in the 1980s and reaching peak cultural saturation in the 1990s, the Teke Teke legend represents the intersection of Japan's rapid modernization, railway infrastructure expansion, and deep-seated anxieties about violent death, bodily integrity, and vengeful spirits.",
+      "full": "Emerging prominently in the 1980s and reaching peak cultural saturation in the 1990s, the Teke Teke legend represents the intersection of Japan's rapid modernization, railway infrastructure expansion, and deep-seated anxieties about violent death, bodily integrity, and vengeful spirits. Unlike traditional Japanese ghosts (*yurei*) that drift ethereally, Teke Teke embodies aggressive physicality despite her bisected state, creating a uniquely disturbing juxtaposition of vulnerability and lethal capability. The legend follows a clear narrative pattern: victims who encounter Teke Teke are pursued relentlessly, and if caught, are bisected at the waist with a scythe or similar sharp implement, condemning them to become new Teke Teke entities. This self-perpetuating cycle of trauma and transformation makes the legend particularly persistent in Japanese urban folklore, serving as both cautionary tale and expression of collective fears about transportation infrastructure, violent accidents, and the restless dead. The psychological horror of Teke Teke lies not merely in her appearance but in her speed—despite lacking legs, she moves faster than any human can run, making escape virtually impossible once encountered. This inverted logic (legless yet swift) creates cognitive dissonance that amplifies the terror, while the sound of her approach provides victims with advance warning of their impending doom, heightening the psychological torment."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "GHOST_HAUNTING",
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
