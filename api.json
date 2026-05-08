@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/teke-teke",
     "maintainers": [
       {
@@ -18,71 +18,109 @@
   },
   "phenomenon": {
     "id": "teke-teke",
-    "name": "Teke Teke (テケテケ)",
-    "aliases": [],
-    "category": "GHOST_HAUNTING",
-    "subcategory": "Unknown",
-    "tags": [
-      "katakana-script-marks-the-sound-as-mechanical",
-      "unnatural",
-      "and-potentially-foreign",
-      "contrasting-with-the-organic-nature-of-traditional-ghost-appearances."
+    "name": "Teke Teke",
+    "aliases": [
+      { "name": "テケテケ", "language": "Japanese (katakana)", "meaning": "Onomatopoeic 'teke teke' for the scratching/scuttling sound she makes" },
+      { "name": "Kashima Reiko", "language": "Japanese", "region": "Hokkaidō", "meaning": "Closely related Japanese urban-legend figure of a girl whose legs were severed by a train, often treated as a precursor to the Teke Teke legend" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Japanese urban legend (onryō / vengeful ghost)",
+    "tags": [
+      "japan",
+      "urban-legend",
+      "ghost",
+      "onryo",
+      "yurei",
+      "railway",
+      "1980s",
+      "1990s"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Emerging prominently in the 1980s and reaching peak cultural saturation in the 1990s, the Teke Teke legend represents the intersection of Japan's rapid modernization, railway infrastructure expansion, and deep-seated anxieties about violent death, bodily integrity, and vengeful spirits.",
-      "full": "Emerging prominently in the 1980s and reaching peak cultural saturation in the 1990s, the Teke Teke legend represents the intersection of Japan's rapid modernization, railway infrastructure expansion, and deep-seated anxieties about violent death, bodily integrity, and vengeful spirits. Unlike traditional Japanese ghosts (*yurei*) that drift ethereally, Teke Teke embodies aggressive physicality despite her bisected state, creating a uniquely disturbing juxtaposition of vulnerability and lethal capability. The legend follows a clear narrative pattern: victims who encounter Teke Teke are pursued relentlessly, and if caught, are bisected at the waist with a scythe or similar sharp implement, condemning them to become new Teke Teke entities. This self-perpetuating cycle of trauma and transformation makes the legend particularly persistent in Japanese urban folklore, serving as both cautionary tale and expression of collective fears about transportation infrastructure, violent accidents, and the restless dead. The psychological horror of Teke Teke lies not merely in her appearance but in her speed—despite lacking legs, she moves faster than any human can run, making escape virtually impossible once encountered. This inverted logic (legless yet swift) creates cognitive dissonance that amplifies the terror, while the sound of her approach provides victims with advance warning of their impending doom, heightening the psychological torment."
+      "summary": "A Japanese urban-legend onryō: the spirit of a young woman or schoolgirl bisected by a train who travels on her hands or elbows, making a 'teke-teke' scratching sound, and bisects those she catches.",
+      "full": "Teke Teke (テケテケ) is a Japanese urban legend that emerged in the 1980s and reached peak popularity in the 1990s. The legend tells of an onryō — a vengeful ghost — formed when a young woman or schoolgirl fell from a railway platform and was cut in two by an oncoming train. In most retellings she dies because of inadequate response by station staff and bystanders. Now lacking the lower half of her body, she travels on her hands or elbows at extremely high speed, dragging her bisected torso along the ground and producing a scratching sound rendered onomatopoeically as 'teke teke teke teke'. Encountering her at night, especially in train stations, school grounds, or empty streets, allegedly leads to pursuit; if she catches a victim, she severs them at the waist with a scythe or similar implement, perpetuating the cycle. Teke Teke is closely related to the older urban legend of Kashima Reiko, a girl in Hokkaidō traditionally said to have lost her legs in a railway accident; both legends share a railway-trauma origin. A Japanese horror film, 'Teketeke', was released in 2009, with a sequel the same year. The legend belongs to a broader cluster of Japanese urban-legend ghosts (kuchisake-onna, Hanako-san, aka manto) that became cultural touchstones in late-20th-century Japan."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese onomatopoeia 'teke teke', the scratching or scuttling sound she is said to make as she pulls her body along the ground.",
+      "meaning": "Approximately 'scratch-scratch' — naming the entity after the sound of her movement.",
+      "first_use": "1980s schoolyard urban legends in Japan; popularised in the 1990s in tabloids and television."
     }
   },
   "classification": {
     "taxonomy": {
       "category": "GHOST_HAUNTING",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Onryō (vengeful ghost)",
+      "subtype": "Urban-legend yūrei",
+      "variant": "Japanese, post-1980s"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kashima-reiko", "name": "Kashima Reiko", "relationship": "related", "description": "Older Japanese urban legend of a legless ghost in railway/bathroom contexts; precursor to Teke Teke" },
+      { "id": "kuchisake-onna", "name": "Kuchisake-onna (Slit-Mouthed Woman)", "relationship": "similar", "description": "Contemporary Japanese urban-legend onryō pursuing schoolchildren" },
+      { "id": "hanako-san", "name": "Hanako-san", "relationship": "similar", "description": "Japanese urban-legend ghost said to haunt school bathrooms" },
+      { "id": "aka-manto", "name": "Aka Manto", "relationship": "similar", "description": "Japanese urban-legend bathroom ghost" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark hair", "blood-stained clothing"],
+      "features": [
+        { "feature": "Bisected body", "description": "Lacks the lower half; the torso ends at the waist, dragging exposed organs and clothing", "frequency": "always" },
+        { "feature": "Movement on hands or elbows", "description": "Travels by pulling herself along the ground using her arms, producing the characteristic 'teke teke' scratching sound", "frequency": "always" },
+        { "feature": "Scythe or sharp implement", "description": "Many versions equip her with a scythe, sickle, or similar tool with which she bisects victims", "frequency": "common" },
+        { "feature": "Schoolgirl or office-worker dress", "description": "Most retellings dress her in a Japanese school uniform; some give an OL (office lady) appearance", "frequency": "common" }
+      ],
+      "morphology": "Onryō (vengeful ghost) class entity; appears as a young woman whose body has been severed at the waist."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Superhuman speed", "description": "Despite being legless, she moves faster than a sprinting human, cited as a defining horror element of the legend", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Bisection of victims", "description": "Cuts those she catches in two at the waist, often turning them into new Teke Teke", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Scratching cry", "description": "Announces her approach with a 'teke teke' scraping sound", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["train stations and railway tracks", "school corridors and school grounds", "empty urban streets"],
+      "patterns": [
+        "Encountered at night",
+        "Targets young women and schoolchildren in many retellings",
+        "Pursues relentlessly once seen",
+        "Self-perpetuating: victims who survive bisection become new Teke Teke in some variants"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originally a Japanese schoolyard / tabloid urban legend; widely diffused since the 2000s through Japanese horror media and English-language internet culture.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Hokkaidō (Kashima Reiko origin)", "Honshū", "Japanese urban areas generally"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1980s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Japanese schoolyard urban legends, recorded in 1980s–1990s tabloid and TV coverage"
+      },
+      "peak_activity_periods": [
+        { "period": "1980s–1990s", "description": "Urban-legend boom in Japanese popular culture" },
+        { "period": "2009", "description": "Two films, 'Teketeke' and 'Teketeke 2', anchor the legend in J-horror" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late-20th-century Japanese urban folklore, drawing on the wider yūrei (ghost) tradition and on real anxieties around railway accidents in modernising Japan.",
+      "earliest_accounts": "Schoolyard and magazine retellings in 1980s Japan; the 'Kashima Reiko' precursor is older.",
+      "folklore_connections": "Connected to the wider gakkō no kaidan ('school ghost stories') boom of the 1990s, of which kuchisake-onna and Hanako-san are the most famous figures."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1985-01-01", "event": "Teke Teke and related Kashima Reiko legends are in active oral and print circulation in Japan", "significance": "Anchor period of the legend's emergence", "source": "Wikipedia, 'Teke Teke'" },
+      { "date": "2009-04-25", "event": "Japanese horror film 'Teketeke', directed by Kōji Shiraishi, is released in Japan", "significance": "Major film treatment that helped diffuse the legend internationally", "source": "Wikipedia, 'Teke Teke'" },
+      { "date": "2009-07-25", "event": "Sequel 'Teketeke 2' is released in Japan", "significance": "Cements the legend in J-horror franchises", "source": "Wikipedia, 'Teke Teke'" }
+    ],
+    "modern_era": "The Teke Teke legend remains active in Japanese horror media (film, manga, anime, video games) and in English-language internet horror communities, where it appears in urban-legend lists and in adapted creepypasta retellings."
   },
   "sightings": {
     "statistics": {
@@ -95,34 +133,71 @@
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "documentary": [
+      {
+        "id": "teke-teke-evidence-shiraishi-2009",
+        "type": "film",
+        "name": "Teketeke (2009 film)",
+        "date": "2009-04-25",
+        "description": "Japanese horror film directed by Kōji Shiraishi based on the Teke Teke legend.",
+        "status": "verified",
+        "analysis": "Major film adaptation; primary 21st-century vehicle for the legend.",
+        "source": "Wikipedia, 'Teke Teke'"
+      },
+      {
+        "id": "teke-teke-evidence-shiraishi-2009-2",
+        "type": "film",
+        "name": "Teketeke 2 (2009 film)",
+        "date": "2009-07-25",
+        "description": "Sequel to the 2009 Teketeke film.",
+        "status": "verified",
+        "analysis": "Cements the legend in J-horror franchise output.",
+        "source": "Wikipedia, 'Teke Teke'"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Modern urban legend",
+        "description": "Folklorists treat Teke Teke as a typical late-20th-century Japanese urban legend rather than as a paranormal report; its structure follows the schoolyard urban-legend pattern (rumour, ritual avoidance, transmission as warning).",
+        "proponents": ["Japanese folklorists (e.g. Tsunemitsu Tōru)"],
+        "evidence_cited": ["Schoolyard transmission patterns", "No documented witness reports treated as serious cryptozoological / parapsychological claims"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["Late-20th-century Japanese gakkō no kaidan (school ghost stories)", "Hokkaidō Kashima Reiko tradition"],
+      "stories": [
+        "Kashima Reiko's railway accident in Hokkaidō",
+        "Variants in which speaking the legend's name aloud invites Teke Teke to appear within a month unless the story is passed on"
+      ],
+      "beliefs": "Treated as a frightening urban legend used by schoolchildren; elements (chain-letter retelling, ritual avoidance phrases) function as classic urban-legend folkloric mechanisms."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Inclusions in major Japanese urban-legend compendia (e.g., Tsunemitsu Tōru's 'Gakkō no kaidan')"
+      ],
+      "film_tv": [
+        "Teketeke (2009)",
+        "Teketeke 2 (2009)",
+        "References on Japanese ghost-story anthology programmes (Honto ni atta kowai hanashi, etc.)"
+      ],
+      "games": [
+        "Used as a model for various indie horror games and internet-horror creepypasta adaptations"
+      ]
     }
   },
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Tsunemitsu Tōru", "affiliation": "Japanese folklorist", "contribution": "Major scholarly compilation of Japanese school ghost stories ('Gakkō no kaidan')", "period": "1990s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continuing scholarly interest in late-20th-century Japanese urban legends as a folklore phenomenon."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-teke-teke", "type": "website", "title": "Teke Teke", "publication": "English Wikipedia", "url": "https://en.wikipedia.org/wiki/Teke_Teke", "accessed": "2026-05-07" },
+    { "id": "wikipedia-kashima-reiko", "type": "website", "title": "Kashima Reiko", "publication": "English Wikipedia", "url": "https://en.wikipedia.org/wiki/Kashima_Reiko", "accessed": "2026-05-07" }
+  ]
 }
